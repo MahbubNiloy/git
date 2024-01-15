@@ -2,6 +2,8 @@ h1{
     background-color: bisque;
     display: flex;
     padding-left: 41%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .main{
     display: flex;
