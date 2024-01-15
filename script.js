@@ -1,16 +1,15 @@
-const decrement = document.querySelector('decrement')
-const increment = document.querySelector('increment')
-const display = document.querySelector('display')
+const decrement = document.querySelector('.decrement')
+const increment = document.querySelector('.increment')
+const display = document.querySelector('.display')
 
-let number = 0;
+let num = 0;
 
-increment.addEventListener('click', function()
-{
-    number = number + 1
-    display.innerHTML = number
-})
+increment.addEventListener('click', function(){
+    num = num + 1
+    display.innerHTML = num
+});
 
 decrement.addEventListener('click', function(){
-    number = number - 1
-    display.innerHTML = number
-})
+    num = num - 1
+    display.innerHTML = num
+});
